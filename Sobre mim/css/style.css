@@ -1,0 +1,222 @@
+@charset "utc-8";
+
+body {
+    background-image: url(../images/gifcidnight.gif);
+    margin-right: 15px;
+}
+#principal {
+    width: 100%;
+}
+header {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: purple;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.fotoperfil {
+    width:100px;
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    padding: 80px 0px 15px 15px;
+    margin-right: 15px;
+}
+ul li {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 25px;
+    font-size: 20px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: purple;
+}
+
+/* Aqui termina o topo do meu site */
+
+section {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    display: flex;
+}
+.curiosidades {
+    border-style: dotted;
+    width: 500px;
+    height: 500px;
+    margin: 10px 0px;
+    padding: 0px 80px;
+    border-radius: 10px;
+    border-color: purple;
+    background-color: rgb(0, 0, 0, 0.7)
+}
+.intro {
+    padding-top: 20px;
+    color:white;
+    font-size: 35px;
+}
+.introducao {
+    color: white;
+    font-size: 28px;
+}
+/* Aqui começa o rodapé do meu site*/
+footer {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.contato {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+}
+h1 {
+    margin-top: 5px;
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.imgbaixo {
+    height: 90px;
+    margin-top: 5px;
+}
+.icones {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+a .github {
+    width: 50px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+a .twitter {
+    width: 50px;
+    border-radius: 15px;
+}
+
+/* Aqui começa a página Sobre */
+aside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.textoexp {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.artigo {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+    width:450px;
+    height: 700px;
+    margin: 10px 8px;
+    text-align: center;
+    
+}
+.pai {
+    display:flex;
+}
+.sobre3 {
+    width: 180px;
+    margin: 8px 8px;
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+}
+.sobre1 {
+    width:400px;
+    height: 200px;
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+    margin: 8px 8px;
+}
+.sobre2 {
+    width: 400px;
+    height: 250px;
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+    margin: 8px 8px;
+}
+
+/* Aqui termina o meu Sobre !! */
+/* Aqui começa minha aba de trabalhos !! */
+
+.profissao {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+}
+.profissao img {
+    display: flex;
+    width:170px;
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+    margin: 8px 8px;
+    opacity: 0.9;
+}
+.prof {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.profi {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.programar {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+.programador {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dev {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}

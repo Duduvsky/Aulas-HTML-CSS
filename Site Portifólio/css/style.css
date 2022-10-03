@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+body {
+    background-color: white;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}   
+
+#principal {
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+header {
+    height: 150px;
+    background-image: url(../imagens/bckheader.jpg);
+    /**background-reapet: no-repeat; repeat-y**/
+    display: flex;
+    justify-content: space-between;
+}
+#fotinho {
+    width: 150px;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+#fotinho img {
+    width: 130px;
+    
+}
+
+nav {
+    /*background-color: red;*/
+    width: 700px;
+}
+
+ul {
+    list-style-type: none; /*para tirar bullet*/
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+ul li {
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ul li a {
+    color: orangered;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color:rgb(129, 122, 122);
+    
+}
+
+ul li a:hover {
+    text-decoration: underline;
+
+}
+
+#meiuca {
+    background-color: red;
+    width: 1366px;
+    height: 600px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#aleatorio {
+    margin-top: 20px;
+    height:190px;
+    width: 950px;
+    display: flex;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+}
+p {
+    margin-left: 10px;
+    color:white
+}
+
+section {
+    background-color: white;
+    width: 940px;
+    height: 320px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.article {
+   margin-top:20px;
+   margin-left: 40px;
+   
+}
+
+aside {
+    background-color: orange;
+    width: 350px;
+    height: 570px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+h5 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lateral {
+    margin-top: 15px;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+.orca {
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+
+.margem {
+    margin-left: 15px;
+}
+p3 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: orangered;
+    width: 1366px;
+    height: 50px;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+h6 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+}
